@@ -1,0 +1,39 @@
+.Detalies {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  max-width: 98vw;
+  padding: 2vw;
+  margin: 30px 0;
+  margin: auto;
+}
+.data-Detalies {
+  padding: 0 30px;
+}
+.Detalies img {
+  width: 40%;
+  height: 80%;
+}
+.data-Detalies h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.data-Detalies p {
+  font-size: 20px;
+  color: #666;
+}
+@media (max-width: 1000px) {
+  .Detalies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Detalies img {
+    width: 90%;
+    height: 50%;
+  }
+  .data-Detalies {
+    padding: 30px;
+  }
+}

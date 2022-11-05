@@ -1,0 +1,82 @@
+.Loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Loading h1 {
+  margin-bottom: 30vh;
+  font-family: ‘Arial Narrow’, sans-serif;
+  font-weight: 100;
+  font-size: 1.1em;
+  color: orangered;
+}
+
+.Loading span {
+  position: relative;
+  top: 0.63em;
+  display: inline-block;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+
+.Loading .let1 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.Loading .let2 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+
+.Loading .let3 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.Loading .let4 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.Loading .let5 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.Loading .let6 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.Loading .let7 {
+  animation: drop 1.2s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+
+@keyframes drop {
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+    top: 3.78em;
+    transform: rotateX(-360deg);
+  }
+  80% {
+    opacity: 1;
+    top: 3.78em;
+    transform: rotateX(-360deg);
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    top: 6.94em;
+  }
+}

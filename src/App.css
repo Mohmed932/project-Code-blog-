@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --main-color: #000;
+  --color-text: #fff;
+}
+.btn {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  font-weight: 100;
+  background-color: orangered;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+}
+

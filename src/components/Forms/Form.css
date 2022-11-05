@@ -1,0 +1,73 @@
+.Forms {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 40%;
+  height: 80%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.form input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  max-width: 100%;
+  margin-top: 3vh;
+  font-size: 20px;
+  caret-color: orangered;
+}
+.upload {
+  color: orangered;
+}
+.form textarea {
+  height: 20vh;
+}
+.form .file input {
+  display: none;
+}
+.form .file label {
+  padding: 5px;
+  display: inline-block;
+  margin: 20px 0;
+  border: 4px dashed #000;
+  cursor: pointer;
+}
+@media (max-width: 1350px) {
+  .form {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .form {
+    width: 70%;
+  }
+  .form input,
+  textarea {
+    max-width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .form {
+    width: 80%;
+    padding: 10px 20px;
+  }
+  .form input,
+  textarea {
+    max-width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .form {
+    width: 85%;
+    height: 70%;
+  }
+  .form textarea {
+    min-height: 11vh;
+  }
+}
